@@ -1,0 +1,58 @@
+fieldset.group  { 
+  margin: 0; 
+  padding: 0; 
+  margin-bottom: 1.25em; 
+  padding: .25em; 
+} 
+
+fieldset.group legend { 
+  margin: 0; 
+  padding: 0; 
+  font-weight: bold; 
+  margin-left: 5px; 
+  font-size: 14px; 
+  color: #4CAF50; 
+} 
+
+ul.checkbox  { 
+  margin: 0; 
+  padding: 0; 
+  margin-left: 5px; 
+  list-style: none;
+  column-count: 2;  
+} 
+
+ul.checkbox li input { 
+  margin-right: .25em; 
+} 
+
+ul.checkbox li { 
+  border: 1px transparent solid; 
+} 
+
+ul.checkbox li label { 
+  margin-right: .5em;
+} 
+
+ul.checkbox li:hover, 
+ul.checkbox li.focus  { 
+  color: #4CAF50;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  font: comic sans;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 1.25em
+} 
+
+.button:hover, 
+.button.focus  { 
+  color: darkgreen; 
+}
